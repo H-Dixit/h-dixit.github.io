@@ -8,9 +8,6 @@ html, body, h1, h2, h3, p, ul, li {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 header {
@@ -59,7 +56,6 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
-  margin-top: auto;
 }
 
 /* Add more CSS styling to customize the look of your website */
