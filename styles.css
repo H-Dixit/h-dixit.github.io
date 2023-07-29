@@ -1,47 +1,61 @@
-/* Add your CSS styling here */
-body {
-  font-family: Arial, sans-serif;
+/* Reset some default styles */
+html, body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
 header {
   background-color: #333;
   color: #fff;
-  text-align: center;
   padding: 20px;
+  text-align: center;
 }
 
 header h1 {
-  margin: 0;
+  font-size: 36px;
 }
 
-header p {
-  margin: 5px 0;
+nav ul {
+  list-style: none;
 }
 
-section {
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+main {
   padding: 20px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+section {
+  margin-bottom: 30px;
 }
 
-li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-a img {
-  width: 30px;
-  height: 30px;
+section h2 {
+  font-size: 24px;
 }
 
 footer {
-  text-align: center;
   background-color: #333;
   color: #fff;
+  text-align: center;
   padding: 10px;
 }
+
+/* Add more CSS styling to customize the look of your website */
