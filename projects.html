@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hariom Dixit</title>
+    <title>Projects - Hariom Dixit</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
@@ -12,48 +12,36 @@
 <body>
     <header>
         <div class="header-container">
-            <h1><a href="#" class="title">Hariom Dixit</a></h1>
+            <h1><a href="index.html" class="title">Hariom Dixit</a></h1>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
             <div class="header-right">
-                <button class="menu-toggle" onclick="toggleMenu()">
-                    <i class="fas fa-bars"></i>
-                </button>
                 <button id="theme-toggle">
                     <i class="fas fa-moon"></i>
                 </button>
-                <nav id="navbar">
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <div class="social-icons">
-                        <a href="https://github.com/h-dixit">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="https://bsky.app/profile/hariomdixit.dev">
-                            <i class="fa-brands fa-bluesky"></i>
-                        </a>
-                    </div>
-                </nav>
+                <div class="social-icons">
+                    <a href="https://github.com/h-dixit">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://bsky.app/profile/hariomdixit.dev">
+                        <i class="fa-brands fa-bluesky"></i>
+                    </a>
+                </div>
             </div>
         </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#blog">Blog</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section id="about">
-            <h1>About Me</h1>
-            <p>Hi! I'm Hariom Dixit, a programming student with a passion for learning and creating. I'm currently studying computer science. I'm always looking for new opportunities to expand my knowledge and skills in programming.</p>
-            <a href="about.html" class="show-all-button">Read More</a>
-        </section>
-        <section id="blog">
-            <h1>Blog</h1>
-            <a href="blog.html" class="show-all-button">Show All</a>
-            <p>Coming soon...</p>
-        </section>
         <section id="projects">
             <h1>Projects</h1>
-            <a href="projects.html" class="show-all-button">Show All</a>
-            <p>Here are some of my latest projects:</p>
             <div class="projects-container">
                 <div class="project-card">
                     <h3>CSPOP Final Project</h3>
@@ -76,13 +64,6 @@
                     <a href="https://hariomdixit.dev/Todo-js">View Project</a>
                 </div>
             </div>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Feel free to contact me:</p>
-            <a href="https://linkedin.com/in/hariomdixit"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://bsky.app/profile/hariomdixit.dev"><i class="fab fa-bluesky"></i></a>
-            <a href="https://github.com/h-dixit"><i class="fa-brands fa-github"></i></a>
         </section>
     </main>
 
