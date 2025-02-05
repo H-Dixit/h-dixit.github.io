@@ -13,10 +13,18 @@
     <header>
         <div class="header-container">
             <h1><a href="index.html" class="title">Hariom Dixit</a></h1>
-            <button class="menu-toggle" onclick="toggleMenu()">
-                <i class="fas fa-bars"></i>
-            </button>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#blog">Blog</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
             <div class="header-right">
+                <button class="menu-toggle" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
                 <button id="theme-toggle">
                     <i class="fas fa-moon"></i>
                 </button>
@@ -30,14 +38,6 @@
                 </div>
             </div>
         </div>
-        <nav id="navbar">
-            <ul>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#blog">Blog</a></li>
-                <li><a href="index.html#projects">Projects</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
     <main>
         <section id="about">

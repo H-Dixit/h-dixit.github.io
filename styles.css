@@ -128,13 +128,36 @@ nav a {
     margin-top: 20px;
 }
 
-.projects-card {
+.project-card {
     background: var(--card-bg);
-    padding: 20px;
+    border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
     width: 300px;
     text-align: center;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card p {
+    color: var(--text-color);
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-link:hover {
+    background-color: var(--secondary-color);
 }
 
 main {
@@ -144,6 +167,26 @@ main {
 
 section {
     margin-bottom: 2rem;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.show-all {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.show-all:hover {
+    background-color: var(--secondary-color);
 }
 
 footer {

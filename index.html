@@ -13,6 +13,14 @@
     <header>
         <div class="header-container">
             <h1><a href="#" class="title">Hariom Dixit</a></h1>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
             <div class="header-right">
                 <button class="menu-toggle" onclick="toggleMenu()">
                     <i class="fas fa-bars"></i>
@@ -20,60 +28,58 @@
                 <button id="theme-toggle">
                     <i class="fas fa-moon"></i>
                 </button>
-                <nav id="navbar">
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <div class="social-icons">
-                        <a href="https://github.com/h-dixit">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="https://bsky.app/profile/hariomdixit.dev">
-                            <i class="fa-brands fa-bluesky"></i>
-                        </a>
-                    </div>
-                </nav>
+                <div class="social-icons">
+                    <a href="https://github.com/h-dixit">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://bsky.app/profile/hariomdixit.dev">
+                        <i class="fa-brands fa-bluesky"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </header>
     <main>
         <section id="about">
-            <h1>About Me</h1>
+            <div class="section-header">
+                <h3>About Me</h3>
+                <a href="about.html" class="show-all-button">Read More</a>
+            </div>
             <p>Hi! I'm Hariom Dixit, a programming student with a passion for learning and creating. I'm currently studying computer science. I'm always looking for new opportunities to expand my knowledge and skills in programming.</p>
-            <a href="about.html" class="show-all-button">Read More</a>
         </section>
         <section id="blog">
-            <h1>Blog</h1>
-            <a href="blog.html" class="show-all-button">Show All</a>
+            <div class="section-header">
+                <h1>Blog</h1>
+                <a href="blog.html" class="show-all-button">Show All</a>
+            </div>
             <p>Coming soon...</p>
         </section>
         <section id="projects">
-            <h1>Projects</h1>
-            <a href="projects.html" class="show-all-button">Show All</a>
+            <div class="section-header">
+                <h1>Projects</h1>
+                <a href="projects.html" class="show-all-button">Show All</a>
+            </div>
             <p>Here are some of my latest projects:</p>
             <div class="projects-container">
                 <div class="project-card">
                     <h3>CSPOP Final Project</h3>
                     <p>Final project for my CSPOP class. I created a simple website using HTML, CSS, and JavaScript.</p>
-                    <a href="https://youtu.be/SO8pBRwcBCY">View Project</a>
+                    <a href="https://youtu.be/SO8pBRwcBCY" class="project-link">View Project</a>
                 </div>
                 <div class="project-card">
                     <h3>Sushiman</h3>
                     <p>A simple website I created using HTML, CSS, and JavaScript. The goal is to catch the sushi as it falls.</p>
-                    <a href="https://hariomdixit.dev/Sushiman">View Project</a>
+                    <a href="https://hariomdixit.dev/Sushiman" class="project-link">View Project</a>
                 </div>
                 <div class="project-card">
                     <h3>Kaprekar</h3>
                     <p>A simple website I created using HTML, CSS, and JavaScript. The website generates Kaprekar's constant.</p>
-                    <a href="https://hariomdixit.dev/Kaprekar">View Project</a>
+                    <a href="https://hariomdixit.dev/Kaprekar" class="project-link">View Project</a>
                 </div>
                 <div class="project-card">
                     <h3>Todo-JS</h3>
                     <p>A simple todo list I created using HTML, CSS, and JavaScript. You can add, delete, and mark tasks as complete.</p>
-                    <a href="https://hariomdixit.dev/Todo-js">View Project</a>
+                    <a href="https://hariomdixit.dev/Todo-js" class="project-link">View Project</a>
                 </div>
             </div>
         </section>
