@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hariom Dixit</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="test.css">
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css">
@@ -12,28 +13,27 @@
 <body>
     <header>
         <div class="header-container">
-            <h1><a href="#" class="title">Hariom Dixit</a></h1>
+            <h1><a href="index.html" class="title">Hariom Dixit</a></h1>
             <nav id="navbar">
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#blog">Blog</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="test.html">Test</a></li>
                 </ul>
             </nav>
             <div class="header-right">
-                <button class="menu-toggle" onclick="toggleMenu()">
+                <button class="menu-toggle btn btn-outline-primary" onclick="toggleMenu()">
                     <i class="fas fa-bars"></i>
                 </button>
-                <button id="theme-toggle">
-                    <i class="fas fa-moon"></i>
-                </button>
                 <div class="social-icons">
-                    <a href="https://github.com/h-dixit">
+                    <button id="theme-toggle" class="btn btn-outline-primary">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="https://github.com/h-dixit" class="btn btn-outline-primary">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="https://bsky.app/profile/hariomdixit.dev">
+                    <a href="https://bsky.app/profile/hariomdixit.dev" class="btn btn-outline-primary">
                         <i class="fa-brands fa-bluesky"></i>
                     </a>
                 </div>
@@ -44,57 +44,60 @@
         <section id="about">
             <div class="section-header">
                 <h3>About Me</h3>
-                <a href="about.html" class="show-all-button">Read More</a>
+                <a href="about.html" class="btn btn-outline-primary">Read More</a>
             </div>
             <p>Hi! I'm Hariom Dixit, a programming student with a passion for learning and creating. I'm currently studying computer science. I'm always looking for new opportunities to expand my knowledge and skills in programming.</p>
         </section>
         <section id="blog">
             <div class="section-header">
                 <h1>Blog</h1>
-                <a href="blog.html" class="show-all-button">Show All</a>
+                <a href="blog.html" class="btn btn-outline-primary">Show All</a>
             </div>
             <p>Coming soon...</p>
         </section>
         <section id="projects">
             <div class="section-header">
                 <h1>Projects</h1>
-                <a href="projects.html" class="show-all-button">Show All</a>
+                <a href="projects.html" class="btn btn-outline-primary">Show All</a>
             </div>
             <p>Here are some of my latest projects:</p>
             <div class="projects-container">
                 <div class="project-card">
                     <h3>CSPOP Final Project</h3>
                     <p>Final project for my CSPOP class. I created a simple website using HTML, CSS, and JavaScript.</p>
-                    <a href="https://youtu.be/SO8pBRwcBCY" class="project-link">View Project</a>
+                    <a href="https://youtu.be/SO8pBRwcBCY" class="btn btn-primary project-link">View Project</a>
                 </div>
                 <div class="project-card">
                     <h3>Sushiman</h3>
                     <p>A simple website I created using HTML, CSS, and JavaScript. The goal is to catch the sushi as it falls.</p>
-                    <a href="https://hariomdixit.dev/Sushiman" class="project-link">View Project</a>
+                    <a href="https://hariomdixit.dev/Sushiman" class="btn btn-primary project-link">View Project</a>
                 </div>
                 <div class="project-card">
                     <h3>Kaprekar</h3>
                     <p>A simple website I created using HTML, CSS, and JavaScript. The website generates Kaprekar's constant.</p>
-                    <a href="https://hariomdixit.dev/Kaprekar" class="project-link">View Project</a>
+                    <a href="https://hariomdixit.dev/Kaprekar" class="btn btn-primary project-link">View Project</a>
                 </div>
                 <div class="project-card">
                     <h3>Todo-JS</h3>
                     <p>A simple todo list I created using HTML, CSS, and JavaScript. You can add, delete, and mark tasks as complete.</p>
-                    <a href="https://hariomdixit.dev/Todo-js" class="project-link">View Project</a>
+                    <a href="https://hariomdixit.dev/Todo-js" class="btn btn-primary project-link">View Project</a>
                 </div>
             </div>
         </section>
-        <section id="contact">
+        <section id="contact" class="mt-5">
             <h2>Contact</h2>
             <p>Feel free to contact me:</p>
-            <a href="https://linkedin.com/in/hariomdixit"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://bsky.app/profile/hariomdixit.dev"><i class="fab fa-bluesky"></i></a>
-            <a href="https://github.com/h-dixit"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/hariomdixit" class="btn btn-outline-primary"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://bsky.app/profile/hariomdixit.dev" class="btn btn-outline-primary"><i class="fab fa-bluesky"></i></a>
+            <a href="https://github.com/h-dixit" class="btn btn-outline-primary"><i class="fa-brands fa-github"></i></a>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2025 Hariom Dixit</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>
